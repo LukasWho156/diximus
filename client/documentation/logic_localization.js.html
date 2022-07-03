@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>logic/localization.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AboutPage.html">AboutPage</a></li><li><a href="components.shared.PlayingCard.html">components.shared.PlayingCard</a></li><li><a href="components.shared.Scoreboard.html">components.shared.Scoreboard</a></li><li><a href="components.shared.SwipeArea.html">components.shared.SwipeArea</a></li><li><a href="logic.Localization.html">logic.Localization</a><ul class='methods'><li data-type='method' style='display: none;'><a href="logic.Localization.html#localize">localize</a></li><li data-type='method' style='display: none;'><a href="logic.Localization.html#localizeObject">localizeObject</a></li><li data-type='method' style='display: none;'><a href="logic.Localization.html#setLanguage">setLanguage</a></li></ul></li></ul><h3>Namespaces</h3><ul><li><a href="components.html">components</a></li><li><a href="components.pages.html">components.pages</a></li><li><a href="components.shared.html">components.shared</a></li><li><a href="logic.html">logic</a><ul class='members'><li data-type='member' style='display: none;'><a href="logic.html#.frontendUrl">frontendUrl</a></li><li data-type='member' style='display: none;'><a href="logic.html#.gameDimensions">gameDimensions</a></li><li data-type='member' style='display: none;'><a href="logic.html#.serverUrl">serverUrl</a></li><li data-type='member' style='display: none;'><a href="logic.html#.version">version</a></li></ul></li></ul><h3>Global</h3><ul><li><a href="global.html#Player">Player</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">logic/localization.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import de from '../assets/localizations/de.json';
+import en from '../assets/localizations/en.json';
+
+/**
+ * Define languages and load translations from the respective json files
+ * @private
+ */
+const languages = {
+    de: { name: 'Deutsch', translations: de },
+    en: { name: 'English', translations: en },
+}
+
+/**
+ * Get available language keys from languages
+ * @private
+ */
+const availableLanguages = Object.keys(languages);
+
+/**
+ * A class that takes care of localizing short strings. Currently supports English and German.
+ * Other translations can be easily added by creating corresponding JSON files.
+ * 
+ * @memberof logic
+ */
+class Localization {
+
+    language;   // the currently selected language code (string)
+
+    /**
+     * Determine the browser's default language
+     * @type string
+     */
+    get defaultLanguage() {
+        return window.navigator.language.split('-')[0];
+    }
+
+    /**
+     * The language code of the currently selected language.
+     * @type string
+     */
+    get currentLanguage() {
+        return this.language;
+    }
+
+    /**
+     * An array of available languages, containing name and code
+     * @type object[]
+     */
+    get availableLanguages() {
+        return availableLanguages.map(e => ({ name: languages[e].name, code: e}));
+    }
+    
+    /**
+     * Create a new Localization object. This should only happen once when the app is
+     * initalized. 
+     * 
+     * @param {string} [language] the language code of the desired language. If omitted, the browser's
+     * default language is used.
+     */
+    constructor(language) {
+        this.setLanguage(language ?? this.defaultLanguage)
+    }
+
+    /**
+     * Try to set the language of the Localization object. If the language is not available, default
+     * to English.
+     * 
+     * @param {string} language the language code of the desired language.
+     */
+    setLanguage(language) {
+        if(!availableLanguages.find(e => e === language)) {
+            this.language = 'en';
+            return;
+        }
+        this.language = language;
+    }
+
+    /**
+     * Localize a message using a message key. The corresponding messages are saved in the language's
+     * JSON file. If a message cannot be found in the current language, default to the English message.
+     * 
+     * Some messages depend on input parameters. In this case, provide them as additional arguments
+     * after the key argument.
+     * 
+     * @param {string} key the message's key
+     * @param  {...string} [replacements] within the messages, replace `'{0}'`, `'{1}'` and so forth
+     * with these parameters.
+     * @returns {string} the localized message including replacements
+     */
+    localize(key, ...replacements) {
+        let message = languages[this.language]?.translations[key] ?? languages['en'].translations[key];
+        for(let i = 0; i &lt; replacements.length; i++) {
+            message = message.replace(`{${i}}`, replacements[i])
+        }
+        return message;
+    }
+
+    /**
+     * Use an object to do localization. The provided object should be structured such that the
+     * localizations are string properties of the object. Example:
+     * 
+     *     cat = {
+     *       en: 'cat',
+     *       de: 'Katze',
+     *     }
+     * 
+     * This is mainly used to localize database object, as they cannot be caught in the translation
+     * file.
+     * 
+     * @param {object} object an object that contains the translations
+     * @returns {string} the localized version of the object.
+     */
+    localizeObject(object) {
+        return object[this.language] ?? object['en'];
+    }
+
+}
+
+export default Localization</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> on Sat Jul 02 2022 21:05:19 GMT+0200 (Mitteleuropäische Sommerzeit) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

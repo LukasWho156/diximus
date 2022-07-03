@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "name": "Diximus",
+  "artist": "Diximus Team",
+  "description": {
+    "de": "Ein Sammlung an Karten, die von den Entwicklern dieses Spiels gemalt wurden.",
+    "en": "A collection of cards painted by the developers of this game."
+  }
+},{
+  "_id": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "name": "Daily Art",
+  "artist": "Various",
+  "description": {
+    "de": "Ein Sammlung gemeinfreier Kunstwerke.",
+    "en": "A collection of public domain works of art."
+  }
+},{
+  "_id": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "name": "Mikalojus Konstantinas Čiurlionis",
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "description": {
+    "de": "Eine Sammlung an Bildern von Mikalojus Konstantinas Čiurlionis",
+    "en": "A collection of pictures by Mikalojus Konstantinas Čiurlionis"
+  }
+}]

@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "62a331be71d8fce048171b40"
+  },
+  "name": {
+    "de": "Gemeinfrei",
+    "en": "Public Domain"
+  },
+  "link": {
+    "de": "https://de.wikipedia.org/wiki/Gemeinfreiheit",
+    "en": "https://en.wikipedia.org/wiki/Public_domain"
+  }
+},{
+  "_id": {
+    "$oid": "62a3336f71d8fce048171b41"
+  },
+  "name": {
+    "en": "CC BY 4.0"
+  },
+  "link": {
+    "en": "https://creativecommons.org/licenses/by/4.0/",
+    "de": "https://creativecommons.org/licenses/by/4.0/deed.de"
+  }
+}]

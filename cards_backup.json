@@ -1,0 +1,1342 @@
+[{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff34f"
+  },
+  "title": "Untitled",
+  "file": "diximus/auge.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff350"
+  },
+  "title": "Untitled",
+  "file": "diximus/clouds.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff351"
+  },
+  "title": "Untitled",
+  "file": "diximus/crystalball.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff352"
+  },
+  "title": "Untitled",
+  "file": "diximus/fungal.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff353"
+  },
+  "title": "Untitled",
+  "file": "diximus/gnome.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff354"
+  },
+  "title": "Untitled",
+  "file": "diximus/lampflowers.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff355"
+  },
+  "title": "Untitled",
+  "file": "diximus/prison.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff356"
+  },
+  "title": "Untitled",
+  "file": "diximus/sauce2.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff357"
+  },
+  "title": "Untitled",
+  "file": "diximus/sense.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff358"
+  },
+  "title": "Untitled",
+  "file": "diximus/sharkman.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff359"
+  },
+  "title": "Untitled",
+  "file": "diximus/squirrel.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff35a"
+  },
+  "title": "Untitled",
+  "file": "diximus/sunset.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff35b"
+  },
+  "title": "Untitled",
+  "file": "diximus/walk.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff35c"
+  },
+  "title": "Untitled",
+  "file": "diximus/IMG-0053.PNG",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff35d"
+  },
+  "title": "Untitled",
+  "file": "diximus/IMG-1275.JPG",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff35e"
+  },
+  "title": "Untitled",
+  "file": "diximus/IMG-1649.JPG",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff35f"
+  },
+  "title": "Untitled",
+  "file": "diximus/IMG-4842.JPG",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff360"
+  },
+  "title": "Untitled",
+  "file": "diximus/IMG-4858.JPG",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff361"
+  },
+  "title": "Untitled",
+  "file": "diximus/IMG-5187.JPG",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff362"
+  },
+  "title": "Untitled",
+  "file": "diximus/kreezy.jpg",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff363"
+  },
+  "title": "Untitled",
+  "file": "diximus/awww.jpg",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff364"
+  },
+  "title": "Untitled",
+  "file": "diximus/rauchgeist.png",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff365"
+  },
+  "title": "Untitled",
+  "file": "diximus/fleischfresser.jpg",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff366"
+  },
+  "title": "Untitled",
+  "file": "diximus/verkehr.jpg",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff367"
+  },
+  "title": "Untitled",
+  "file": "diximus/rosanilpferd.jpg",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff368"
+  },
+  "title": "Untitled",
+  "file": "diximus/schattig.jpg",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5bd6a8858aade0ff369"
+  },
+  "title": "Untitled",
+  "file": "diximus/IMG-1786.jpg",
+  "deck": {
+    "$oid": "62a3338671d8fce048171b44"
+  },
+  "artist": "Diximus Team",
+  "year": "2022",
+  "license": {
+    "$oid": "62a3336f71d8fce048171b41"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff36a"
+  },
+  "title": "Tod und Leben",
+  "file": "daily/todundleben.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Edvard Munch",
+  "year": "1894",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff36b"
+  },
+  "title": "Der große rote Drache und die mit der Sonne bekleidete Frau",
+  "file": "daily/sonnendrache.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "William Blake",
+  "year": "ca. 1805",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff36c"
+  },
+  "title": "1001 Nacht",
+  "file": "daily/1001nacht.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Vittorio Zecchin",
+  "year": "1914",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff36d"
+  },
+  "title": "Alacena",
+  "file": "daily/alacena.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "María Izquierdo",
+  "year": "1947",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff36e"
+  },
+  "title": "Die Entführung des Ganymed",
+  "file": "daily/ganymed.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Rembrandt van Rijn",
+  "year": "1635",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff36f"
+  },
+  "title": "Gruppe X, Altarbild Nr. 1",
+  "file": "daily/spektrum.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Hilma af Klint",
+  "year": "1915",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff370"
+  },
+  "title": "Die Weiße Rose und die Rote Rose",
+  "file": "daily/rosen.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Margaret Macdonalt Mackintosh",
+  "year": "1902",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff371"
+  },
+  "title": "Tableau No. 1",
+  "file": "daily/mondrian.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Piet Mondrian",
+  "year": "1913",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff372"
+  },
+  "title": "Die Versuchung des Heiligen Antonius",
+  "file": "daily/antonius.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Joos van Craesbeeck",
+  "year": "ca. 1650",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff373"
+  },
+  "title": "Emma Van Name",
+  "file": "daily/babyfrau.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Joshua Johnson",
+  "year": "ca. 1805",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff374"
+  },
+  "title": "Die Familie (In Erinnerung an einen Sommer in den Weißen Bergen)",
+  "file": "daily/familie.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Marguerite Zorach",
+  "year": "1917",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff375"
+  },
+  "title": "Hornsgatan bei Nacht",
+  "file": "daily/laternen.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Eugène Jansson",
+  "year": "1902",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff377"
+  },
+  "title": "Jungfrau",
+  "file": "daily/frauenknaeuel.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Gustav Klimt",
+  "year": "1913",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff378"
+  },
+  "title": "Niña de la Muñeca",
+  "file": "daily/puppenmaedchen.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Rosa Rolanda",
+  "year": "1943",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff379"
+  },
+  "title": "Zwei Ovale",
+  "file": "daily/abstrakt.png",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Wassily Kandinsky",
+  "year": "1919",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff37b"
+  },
+  "title": "Formen der Angst",
+  "file": "daily/umhang.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Mynard Dixon",
+  "year": "1930-32",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff37c"
+  },
+  "title": "Memento-Mori-Mosaik aus Pompeji",
+  "file": "daily/mosaik.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "unbekannter Künstler",
+  "year": "30-40 v. Chr.",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff37d"
+  },
+  "title": "Das junge Mädchen und der Kohl",
+  "file": "daily/kohl.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Firmin Baes",
+  "year": "ca. 1903",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff37e"
+  },
+  "title": "Der schlafende Zigeuner",
+  "file": "daily/loewe.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Henri Rousseau",
+  "year": "1897",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff37f"
+  },
+  "title": "AA27",
+  "file": "daily/schlucht.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Zdzisław Beksiński",
+  "year": "1972",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff380"
+  },
+  "title": "Ohne Titel",
+  "file": "daily/welt.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Shuvinai Ashoona",
+  "year": "2018",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff381"
+  },
+  "title": "Schreibtisch",
+  "file": "daily/schreibtisch.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Olga Rozanova",
+  "year": "1916",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff382"
+  },
+  "title": "Alter Mann am Fenster",
+  "file": "daily/altermann.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Samuel van Hoogstraten",
+  "year": "1653",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff383"
+  },
+  "title": "Sankt Georg und der Drache",
+  "file": "daily/drache.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Sankt Georg und der Drache",
+  "year": "1434/35",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff384"
+  },
+  "title": "Manuel Osorio Manrique de Zuñiga",
+  "file": "daily/maedchen.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Fancisco Goya",
+  "year": "1787-88",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff385"
+  },
+  "title": "Alte Frau und Junge mit Kerzen",
+  "file": "daily/kerzen.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Peter Paul Rubens",
+  "year": "ca. 1616-1617",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff386"
+  },
+  "title": "Porträt eines außergewöhnlichen musikalischen Hundes",
+  "file": "daily/musikalischerhund.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Philip Reinagle",
+  "year": "1805",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff387"
+  },
+  "title": "Dodo",
+  "file": "daily/dodo.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Reoelandt Savery",
+  "year": "nicht später als 1639",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff388"
+  },
+  "title": "Madonna und Kind",
+  "file": "daily/renaissancebaby.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Carlo Crivelli",
+  "year": "ca. 1480",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff389"
+  },
+  "title": "Karikatur von Jules Didier (Schmetterlingsmann)",
+  "file": "daily/schmetterlingsmann.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Claude Monet",
+  "year": "ca. 1858",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff38a"
+  },
+  "title": "Kopf (Uhunmwun Elao)",
+  "file": "daily/kopf.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "unbekannter Künstler",
+  "year": "18./frühes 19. Jhdt.",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff38b"
+  },
+  "title": "Paris, Bibl. de la Sorbonne, ms. 0121, f. 023",
+  "file": "daily/killerkaninchen.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "unbekannter Künstler",
+  "year": "14. Jhdt.",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff38c"
+  },
+  "title": "Pallas Athene",
+  "file": "daily/athene.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Gustav Klimt",
+  "year": "1898",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff38d"
+  },
+  "title": "Der Dämon Omatsu ermordet Shirosaburō im Ford",
+  "file": "daily/toeten.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Tsukioka Yoshitoshi",
+  "year": "1885",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff38e"
+  },
+  "title": "Elefant",
+  "file": "daily/elefant.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Itō Jakuchū",
+  "year": "1790",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff38f"
+  },
+  "title": "Hund und Schnecke",
+  "file": "daily/hundschnecke.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Kamisaka Sekka",
+  "year": "1909-1910",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff390"
+  },
+  "title": "Antike Theatermaske aus lackiertem Holz",
+  "file": "daily/theatermaske.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Henri Guérard",
+  "year": "1882",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff391"
+  },
+  "title": "Ein Freund in Not",
+  "file": "daily/pokerhunde.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Cassius Marcellus Coolidge",
+  "year": "1903",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff392"
+  },
+  "title": "Maschka mit Maske",
+  "file": "daily/fraumaske.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Otto Mueller",
+  "year": "1919/1921",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff393"
+  },
+  "title": "AA70",
+  "file": "daily/vieletote.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "Zdzisław Beksiński",
+  "year": "1970",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff394"
+  },
+  "title": "Blaue Wurzel",
+  "file": "daily/blauewurzel.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "artist": "unbekannter Künstler",
+  "year": "15. Jhdt.",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62a6f5cd6a8858aade0ff395"
+  },
+  "file": "daily/fisch.jpg",
+  "deck": {
+    "$oid": "62a3356471d8fce048171b45"
+  },
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6671b"
+  },
+  "title": "Sternensonate. Allegro",
+  "file": "mikalojus/IMG-1842.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1908",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6671c"
+  },
+  "title": "Königsmärchen",
+  "file": "mikalojus/IMG-1843.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1908-1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6671d"
+  },
+  "title": "Sternensonate. Andante",
+  "file": "mikalojus/IMG-1844.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1908",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6671e"
+  },
+  "title": "Märchen - III",
+  "file": "mikalojus/IMG-1845.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1907",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6671f"
+  },
+  "title": "Sonate - II",
+  "file": "mikalojus/IMG-1846.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1907",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66720"
+  },
+  "title": "Das Opfer",
+  "file": "mikalojus/IMG-1847.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66721"
+  },
+  "title": "Erschaffung der Welt - XI",
+  "file": "mikalojus/IMG-1848.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1905-1906",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66722"
+  },
+  "title": "Erschaffung der Welt - IV",
+  "file": "mikalojus/IMG-1849.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1905-1906",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66723"
+  },
+  "title": "Black Sun (or Ballad)",
+  "file": "mikalojus/IMG-1850.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66724"
+  },
+  "title": "The Sun is Passing the Sign of Aquarius",
+  "file": "mikalojus/IMG-1852.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1906",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66725"
+  },
+  "title": "Die Sintflut - Seestück.",
+  "file": "mikalojus/IMG-1853.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "undatiert",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66726"
+  },
+  "title": "Funeral Symphony (VI)",
+  "file": "mikalojus/IMG-1854.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1903",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66727"
+  },
+  "title": "Funeral Symphony (V)",
+  "file": "mikalojus/IMG-1855.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1903",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66728"
+  },
+  "title": "Friedhof Motiv",
+  "file": "mikalojus/IMG-1856.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66729"
+  },
+  "title": "Truth",
+  "file": "mikalojus/IMG-1857.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1905",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6672a"
+  },
+  "title": "Vergangenheit",
+  "file": "mikalojus/IMG-1858.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1907",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6672b"
+  },
+  "title": "Pyramidensonate. Allegro",
+  "file": "mikalojus/IMG-1859.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1908",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6672c"
+  },
+  "title": "Märchen - I",
+  "file": "mikalojus/IMG-1860.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1907",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6672d"
+  },
+  "title": "Morning",
+  "file": "mikalojus/IMG-1861.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1904",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6672e"
+  },
+  "title": "Geiß",
+  "file": "mikalojus/IMG-1862.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1904",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f6672f"
+  },
+  "title": "Blitz",
+  "file": "mikalojus/IMG-1863.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66730"
+  },
+  "title": "Eternity",
+  "file": "mikalojus/IMG-1864.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1906",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66731"
+  },
+  "title": "Sonnensonate. Allegro",
+  "file": "mikalojus/IMG-1865.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1907",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66732"
+  },
+  "title": "Märchenschloss",
+  "file": "mikalojus/IMG-1866.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66733"
+  },
+  "title": "Friendship",
+  "file": "mikalojus/IMG-1867.JPG",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1906",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66734"
+  },
+  "title": "Engel (Engel-Präludium)",
+  "file": "mikalojus/bergengel.png",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+},{
+  "_id": {
+    "$oid": "62ac82ba119311d5d8f66735"
+  },
+  "title": "Rex",
+  "file": "mikalojus/erdturm.png",
+  "deck": {
+    "$oid": "62ac80fc119311d5d8f666f9"
+  },
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": "1909",
+  "license": {
+    "$oid": "62a331be71d8fce048171b40"
+  }
+}]
