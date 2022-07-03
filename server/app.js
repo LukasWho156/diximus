@@ -22,7 +22,7 @@ import * as enforce from 'express-sslify';
 // define some constants
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 const port = process.env.PORT ?? 3000;
-const dbString = process.env.MONGO_URI ?? 'mongodb://localhost:27017/diximus';
+const dbString = process.env.MONGO_URI ?? 'mongodb://127.0.0.1:27017/diximus';
 
 // set up express
 const app = express();
@@ -41,7 +41,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 // set up database
-//console.log(dbString);
 console.log('Connecting to database ...')
 try {
     await mongoose.connect(dbString)
