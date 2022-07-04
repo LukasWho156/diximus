@@ -28,12 +28,12 @@ class SwipeArea extends React.Component {
     onTouchStart = (e) => {
         // if this is not the only touch, cancel the swipe.
         if(e.touches.length > 1) {
-            this.swipeStarted = false;
+            this.ongoingSwipe = false;
             this.setState({deltaX: 0});
             return;
         }
         // initiate the swipe
-        this.swipeStarted = true;
+        this.ongoingSwipe = true;
         this.startX = e.touches[0].clientX;
     }
 

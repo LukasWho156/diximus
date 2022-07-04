@@ -139,7 +139,6 @@ class CardViewer extends React.Component {
         const fullWayPart = (ratio - centerCutoffRatio) / (descriptionCutoffRatio - centerCutoffRatio);
         const scale = (0.95 * this.state.height / cardHeight)
         if((this.props.showDescription || this.props.onConfirm) && ratio < centerCutoffRatio) {
-            console.log('Full way:', fullWayPart);
             x = (this.state.width - cardWidth) / 2 - cardWidth * 0.3 * fullWayPart * scale;
         }
         return (
@@ -218,8 +217,8 @@ class CardViewerAlt extends CardViewer {
             </div>
         );
         return (
-            <div style={{position: "fixed", width: "100%", height: "100%", maxHeight: "100%",
-                backgroundColor: "rgba(0, 0, 0, 0.6", zIndex: 200, paddingTop: '1em'}}
+            <div style={{position: "fixed", width: "100%", height: "100%", maxHeight: "100%", paddingTop: '1em',
+                backgroundColor: "rgba(0, 0, 0, 0.6)", zIndex: 200, overflowX: 'hidden', overflowY: 'auto'}}
                 onClick={() => this.onClose()} className="contentColumn">
                 <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%', maxWidth: '100%'}}>
                     <img src={leftArrowImg} alt="Previous" className="clickable" onClick={(e) => this.prev(e)}/>
