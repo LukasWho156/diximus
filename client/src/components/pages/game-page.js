@@ -34,8 +34,10 @@ class GamePageComponent extends React.Component {
                     this.setState({gameState: 'doesNotExist'});
                     break;
                 case 'open':
+                    this.evaluateReconnect(false);
+                    break;
                 case 'running':
-                    this.evaluateReconnect();
+                    this.evaluateReconnect(true);
                     break;
                 case 'finished':
                     this.setState({ gameState: 'finished' });
@@ -66,8 +68,8 @@ class GamePageComponent extends React.Component {
         setTimeout(() => this.stopLoading(), 3000);
     }
 
-    evaluateReconnect() {
-        this.gameRunning = false;
+    evaluateReconnect(running) {
+        this.gameRunning = running;
         this.props.socket.emit('reconnect', this.credentials)
     }
 

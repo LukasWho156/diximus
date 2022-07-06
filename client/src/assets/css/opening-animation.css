@@ -1,0 +1,118 @@
+:root {
+    --front-end: -200%;
+    --mid-end: -150%;
+    --back-end: -100%
+}
+
+@keyframes bee-line {
+    0% { offset-distance: 0% }
+    100% { offset-distance: 100% }
+}
+
+@keyframes bush-back-left {
+    0% { bottom: 0; left: 0 }
+    25% { bottom: 0; left: 0 }
+    100% { bottom: 0; left: var(--back-end) }
+}
+
+@keyframes bush-middle-left {
+    0% { bottom: 0; left: 0 }
+    25% { bottom: 0; left: 0 }
+    100% { bottom: 0; left: var(--mid-end) }
+}
+
+@keyframes bush-front-left {
+    0% { bottom: 0; left: 0 }
+    25% { bottom: 0; left: 0 }
+    100% { bottom: 0; left: var(--front-end) }
+}
+
+@keyframes bush-back-right {
+    0% { bottom: 0; right: 0 }
+    25% { bottom: 0; right: 0 }
+    100% { bottom: 0; right: var(--back-end) }
+}
+
+@keyframes bush-middle-right {
+    0% { bottom: 0; right: 0 }
+    25% { bottom: 0; right: 0 }
+    100% { bottom: 0; right: var(--mid-end) }
+}
+
+@keyframes bush-front-right {
+    0% { bottom: 0; right: 0 }
+    25% { bottom: 0; right: 0 }
+    100% { bottom: 0; right: var(--front-end) }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0 }
+    25% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+.fadeIn {
+    animation: fade-in linear 3s;
+}
+
+.bee {
+    offset-path: path('m -5, -5 c 5, 0, 5, 10, 10, 10 a 5, 5, 0, 1, 0, 0, -10 c -5, 0, -5, 10, -10, 10 a 5, 5, 0, 1, 1, 0, -10');
+    animation: bee-line linear 3s infinite;
+    opacity: 0.7;
+}
+
+.bush {
+    position: absolute;
+    animation: linear 3s;
+    bottom: 0;
+}
+
+.bush.left {
+    left: 0;
+}
+
+.bush.right {
+    right: 0;
+}
+
+.bush.back {
+    z-index: 1;
+}
+
+.bush.middle {
+    z-index: 2;
+}
+
+.bush.front {
+    z-index: 3;
+}
+
+.bush.left.front {
+    left: var(--front-end);
+    animation-name: bush-front-left;
+}
+
+.bush.left.middle {
+    left: var(--mid-end);
+    animation-name: bush-middle-left;
+}
+
+.bush.left.back {
+    left: var(--back-end);
+    animation-name: bush-back-left;
+}
+
+.bush.right.front {
+    right: var(--front-end);
+    animation-name: bush-front-right;
+}
+
+.bush.right.middle {
+    right: var(--mid-end);
+    animation-name: bush-middle-right;
+}
+
+.bush.right.back {
+    right: var(--back-end);
+    animation-name: bush-back-right;
+}

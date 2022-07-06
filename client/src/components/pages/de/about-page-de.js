@@ -6,33 +6,33 @@ import "../../../assets/css/layouts.css";
 class AboutPageDe extends React.Component {
 
     render() {
-        return (<div className="contentColumn" style={{width: "60%"}}>
+        return (<div className="contentColumn contentPage">
                 <h1>Spielregeln</h1>
-                <p className="poem">
+                <p className="centered poem">
                     Ihr möchtet wissen, wie das Spiel funktioniert?<br/>
                     Dann hört gut zu, wir sagen es euch ungeniert.<br/>
                     Zunächst bestimmt ihr den Rundenleiter<br/>
                     Dann geht das Spiel auch ganz fix weiter.
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     Er nennt einen Begriff, der eine Karte beschreibt<br/>
                     Doch so, dass Interpretationsspielraum bleibt.<br/>
                     Denn erkennt seine Karte jeder oder keiner<br/>
                     Gibt's für ihn keine Punkte &ndash; leider.
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     Als nächstes sind die anderen Spieler dran:<br/>
                     Sie wählen selbst eine Karte sodann.<br/>
                     Zum Begriff soll sie möglichst gut passen,<br/>
                     Dass andere sich täuschen lassen.
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     Die Karten werden durchgemischt<br/>
                     Und dann auch ganz schnell aufgetischt.<br/>
                     Jetzt beginnt die Raterei:<br/>
                     Kam vom Leiter die eins, zwei, oder drei?
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     Hat jeder einen Tipp gegeben<br/>
                     Dann schaut: Liegt ihr richtig oder daneben?<br/>
                     Jetzt beginnt die Punkteverteilerei,<br/>

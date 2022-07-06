@@ -35,6 +35,10 @@
     -webkit-overflow-scrolling: touch;
 }
 
+.contentPage {
+    width: clamp(60%, 800px, 95%);
+}
+
 .copyrightInfo {
     font-size: 0.8em;
     color: rgba(63, 63, 63, 1);
@@ -57,4 +61,8 @@
 
 .navBar:hover {
     background-color: floralwhite;
+}
+
+.superheader {
+    font-size: 5em;
 }

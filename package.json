@@ -1,0 +1,15 @@
+{
+  "name": "diximus",
+  "version": "1.0.0",
+  "description": "This repository contains all the things you need to run a local instance of Diximus on your machine.",
+  "main": "index.js",
+  "scripts": {
+    "install": "mongorestore && cd client && npm install --legacy-peer-deps && cd ../server && npm install --legacy-peer-deps && cd ..",
+    "start:windows": "powershell \".\\start.ps1\"",
+    "start:linux": "(cd client && npm start) ? (cd server && npm start)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

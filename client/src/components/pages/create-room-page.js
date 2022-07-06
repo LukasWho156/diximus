@@ -24,7 +24,7 @@ class CreateRoomPageComponent extends React.Component {
             window.localStorage.setItem('diximusGameId', data.gameId);
             window.localStorage.setItem('diximusPlayerId', data.playerId);
             window.localStorage.setItem('diximusPrivateId', data.privateId);
-            this.props.navigate(data.gameId);
+            this.props.navigate(`/${data.gameId}`);
         });
     }
 
@@ -38,9 +38,9 @@ class CreateRoomPageComponent extends React.Component {
 
     render() {
         return (
-            <NavBarPage localization={this.props.localization} forceRerender={this.props.forceRerender}>
-                <h1>Diximus</h1>
-                <h2>{this.props.localization.localize('create-room-page_create-new-game')}</h2>
+            <NavBarPage {...this.props}>
+                <h1>{this.props.localization.localize('create-room-page_create-new-game')}</h1>
+                <div style={{height: '2em'}}></div>
                 <AvatarCustomization
                     localization={this.props.localization}
                     onDataUpdated={(data) => this.onDataUpdated(data)}

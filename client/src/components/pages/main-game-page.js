@@ -279,7 +279,9 @@ class MainGamePage extends React.Component {
                     <h1>{this.props.localization.localize('main-game-page_end-of-turn')}</h1>
                     <h2>{this.props.localization.localize('main-game-page_scoring', me.score.thisTurn)}</h2>
                     <Button variant="primary" className="dropShadow" onClick={() => this.nextTurn()}>
-                        {this.props.localization.localize('main-game-page_next-turn')}
+                        {this.state.runningState.currentTurn === this.state.totalTurns ?
+                            this.props.localization.localize('main-game-page_show-scores') :
+                            this.props.localization.localize('main-game-page_next-turn')}
                     </Button>
                 </div>);
                 break;

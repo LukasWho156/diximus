@@ -39,8 +39,7 @@ class JoinRoomPage extends React.Component {
     render() {
         return (
             <NavBarPage localization={this.props.localization} forceRerender={this.props.forceRerender}>
-                <h1>Diximus</h1>
-                <h2>{this.props.localization.localize('join-room-page_join-game')}</h2>
+                <h1>{this.props.localization.localize('join-room-page_join-game')}</h1>
                 <AvatarCustomization
                     localization={this.props.localization}
                     onDataUpdated={(data) => this.onDataUpdated(data)}

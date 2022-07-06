@@ -24,6 +24,7 @@
     "main-game-page_end-of-turn": "End of the round",
     "main-game-page_scoring": "You gained {0} point this round.",
     "main-game-page_next-turn": "Next round",
+    "main-game-page_show-scores": "Show final scores",
     "main-game-page_fullscreen": "Fullscreen",
     "main-game-page_card-owner": "{0}'s card",
     "finished-page_game-over": "The game is over",

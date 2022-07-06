@@ -1,4 +1,5 @@
 import express from 'express';
+import createBot from '../games/create-bot.js';
 
 import Game from '../games/game.js';
 
@@ -6,13 +7,12 @@ const testRouter = (gameDB) => {
 
     const router = express.Router();
 
-    router.post('creategame/running', (req, res) => {
-        const id = req.body.id ?? 'test-game';
-        const noPlayers = req.body.players ?? 3;
-        const game = new Game(id);
-        gameDB.set(id, game);
-        
-    })
+    router.post('/createbot', (req, res) => {
+        console.log(req.body);
+        createBot(req.body.gameId).then(data => res.send(data))
+    });
+
+    return router;
 
 }
 

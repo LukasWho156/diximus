@@ -6,33 +6,33 @@ import "../../../assets/css/layouts.css";
 class AboutPageEn extends React.Component {
 
     render() {
-        return (<div className="contentColumn" style={{width: "60%"}}>
+        return (<div className="contentColumn contentPage">
                 <h1>Rules</h1>
-                <p className="poem">
+                <p className="centered poem">
                     You wonder: How does this game work?<br/>
                     Let me tell you, my little nerd:<br/>
                     First, appoint the leader of the round<br/>
                     With their skill set they can then astound.
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     They pick a term to describe their card,<br/>
                     Don't make it too easy or too hard.<br/>
                     'cause if it's guessed by all or none<br/>
                     It's zero points &ndash; that's not much fun.
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     Now it's the other players' turn:<br/>
                     Pick a card that fits the term.<br/>
                     If you can fool some of your mates<br/>
                     You earn some points through their mistakes.
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     All cards are shuffled thoroughly<br/>
                     Then put in the middle so all can see<br/>
                     Now let's start the guessing game:<br/>
                     What card belongs to the round leader's name?
                 </p>
-                <p className="poem">
+                <p className="centered poem">
                     Once everyone has made a guess<br/>
                     See if you're right: No or yes?<br/>
                     Evaluate each player's score<br/>

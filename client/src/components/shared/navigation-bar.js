@@ -14,9 +14,11 @@ class NavigationBar extends React.Component {
 
     render() {
         return(<div className="navBar">
-            <div className="diximus">Diximus</div>
+            <Link to="/" style={{textDecoration: 'none', color: 'black'}}>
+                <div className="diximus" onClick={this.props.onDiximusClick}>Diximus</div>
+            </Link>
             <div>
-                <Link to="/">{this.props.localization.localize('nav-bar_create-new-game')}</Link> |&nbsp;
+                <Link to="/create">{this.props.localization.localize('nav-bar_create-new-game')}</Link> |&nbsp;
                 <Link to="/gallery">{this.props.localization.localize('nav-bar_card-gallery')}</Link> |&nbsp;
                 <Link to="/about">{this.props.localization.localize('nav-bar_about-diximus')}</Link> |&nbsp;
                 <Link to="/contact">{this.props.localization.localize('nav-bar_contact')}</Link>

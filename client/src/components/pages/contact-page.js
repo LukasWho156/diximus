@@ -1,6 +1,7 @@
 import React from "react";
 
 import NavBarPage from "../shared/nav-bar-page";
+import CopyrightInfo from "../shared/copyright-info";
 import ContactPageDe from "./de/contact-page-de";
 import ContactPageEn from "./en/contact-page-en";
 
@@ -20,10 +21,7 @@ class ContactPage extends React.Component {
     render() {
         return <NavBarPage localization={this.props.localization} forceRerender={this.props.forceRerender}>
             {this.renderInner()}
-            <div className="copyrightInfo">
-                Diximus v.{version}<br/>
-                Copyright © 2022 Gute LuThe Games
-            </div>
+            <CopyrightInfo />
         </NavBarPage>
     }
 }

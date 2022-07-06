@@ -1,8 +1,10 @@
 import bodyParser from 'body-parser';
 import * as url from 'url';
 
-import express, { response } from 'express';
-import { createServer, request } from 'http';
+import express from 'express';
+import * as enforce from 'express-sslify';
+import serveFavicon from 'serve-favicon';
+import { createServer } from 'http';
 import cors from 'cors';
 import { Server as WSServer } from 'socket.io';
 import mongoose from 'mongoose';
@@ -12,12 +14,11 @@ import Game from './src/games/game.js';
 
 import gameRouter from './src/routes/gameRouter.js';
 import apiRouter from './src/routes/apiRouter.js';
+import testRouter from './src/routes/testRouter.js';
 import joinWS from './src/ws/joinWS.js';
 import gameWS from './src/ws/gameWS.js';
 
 import DatabaseGame from './src/models/database-game.js';
-
-import * as enforce from 'express-sslify';
 
 // define some constants
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
@@ -26,6 +27,8 @@ const dbString = process.env.MONGO_URI ?? 'mongodb://127.0.0.1:27017/diximus';
 
 // set up express
 const app = express();
+
+console.log(process.env.NODE_ENV)
 
 // for the heroku app, redirect http requests to https
 if(process.env.NODE_ENV === 'production') {
@@ -39,6 +42,8 @@ app.use(cors({
 }));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+
+app.use(serveFavicon(path.join(__dirname, 'build', 'favicon.ico')));
 
 // set up database
 console.log('Connecting to database ...')
@@ -76,6 +81,10 @@ const io = new WSServer(server, {
     }
 });
 
+if(process.env.NODE_ENV === 'test') {
+    console.log('Using testing api');
+    app.use('/api/test', testRouter(gameDB));
+}
 // game api
 app.use('/api/game', gameRouter(gameDB));
 // other api
