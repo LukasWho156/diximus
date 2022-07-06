@@ -6,13 +6,16 @@ import AvatarCustomization from "../shared/avatar-customization";
 import '../../assets/css/layouts.css';
 import NavBarPage from '../shared/nav-bar-page';
 
+import ConfirmDialog from '../shared/confirm-dialog';
+import { isGameRunning } from '../../logic/is-game-running';
+
 class JoinRoomPage extends React.Component {
 
     playerData;
 
     constructor(props) {
         super(props);
-        this.state = { alert: null };
+        this.state = { alert: null, showDialog: false };
     }
 
     componentDidMount() {
@@ -40,6 +43,7 @@ class JoinRoomPage extends React.Component {
         return (
             <NavBarPage localization={this.props.localization} forceRerender={this.props.forceRerender}>
                 <h1>{this.props.localization.localize('join-room-page_join-game')}</h1>
+                <div style={{height: '2em'}}></div>
                 <AvatarCustomization
                     localization={this.props.localization}
                     onDataUpdated={(data) => this.onDataUpdated(data)}
@@ -53,6 +57,11 @@ class JoinRoomPage extends React.Component {
                         {this.state.alert?.message}
                     </Alert>
                 </div>
+                <ConfirmDialog show={this.state.showDialog} localization={this.props.localization}
+                    onConfirm={this.joinGame} onCancel={() => this.setState({ showDialog: false })}
+                    title={this.props.localization.localize('join-room-page_modal-title')}>
+                    {this.props.localization.localize('join-room-page_modal-body')}
+                </ConfirmDialog>
             </NavBarPage>
         );
     }
@@ -61,15 +70,25 @@ class JoinRoomPage extends React.Component {
         this.playerData = playerData;
     }
 
+    joinGame = () => {
+        this.props.socket.emit('join', {
+            gameId: this.props.params.id,
+            player: this.playerData,
+        })
+    }
+
     onJoinGame = () => {
         if(!this.playerData?.name) {
             this.alert({type: 'danger', message: this.props.localization.localize('error-message_missing-name')});
             return;
         }
-        this.props.socket.emit('join', {
-            gameId: this.props.params.id,
-            player: this.playerData,
-        })
+        isGameRunning().then(res => {
+            if(res) {
+                this.setState({ showDialog: true });
+                return;
+            }
+            this.joinGame();
+        });
     }
     
 }

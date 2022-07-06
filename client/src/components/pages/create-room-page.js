@@ -8,6 +8,8 @@ import NavBarPage from '../shared/nav-bar-page';
 
 import { serverUrl } from '../../logic/server-url';
 import '../../assets/css/layouts.css';
+import ConfirmDialog from '../shared/confirm-dialog';
+import { isGameRunning } from '../../logic/is-game-running';
 
 class CreateRoomPageComponent extends React.Component {
 
@@ -15,7 +17,7 @@ class CreateRoomPageComponent extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { alert: null };
+        this.state = { alert: null, showDialog: false };
     }
 
     componentDidMount() {
@@ -54,6 +56,11 @@ class CreateRoomPageComponent extends React.Component {
                         {this.state.alert?.message}
                     </Alert>
                 </div>
+                <ConfirmDialog show={this.state.showDialog} localization={this.props.localization}
+                    onConfirm={this.createGame} onCancel={() => this.setState({ showDialog: false })}
+                    title={this.props.localization.localize('create-room-page_modal-title')}>
+                    {this.props.localization.localize('create-room-page_modal-body')}
+                </ConfirmDialog>
             </NavBarPage>
         );
     }
@@ -62,17 +69,27 @@ class CreateRoomPageComponent extends React.Component {
         this.playerData = playerData;
     }
 
-    onCreateGame = () => {
-        if(!this.playerData?.name) {
-            this.alert({type: 'danger', message: this.props.localization.localize('error-message_missing-name')});
-            return;
-        }
+    createGame = () => {
         axios.post(`${serverUrl}/game/create/`).then(res => {
             this.props.socket.emit('join', {
                 gameId: res.data.id,
                 player: this.playerData,
             })
         })
+    }
+
+    onCreateGame = () => {
+        if(!this.playerData?.name) {
+            this.alert({type: 'danger', message: this.props.localization.localize('error-message_missing-name')});
+            return;
+        }
+        isGameRunning().then(res => {
+            if(res) {
+                this.setState({ showDialog: true });
+                return;
+            }
+            this.createGame();
+        });
     }
     
 }

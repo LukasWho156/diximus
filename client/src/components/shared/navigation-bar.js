@@ -13,11 +13,18 @@ class NavigationBar extends React.Component {
     }
 
     render() {
+        const gameId = window.localStorage.getItem('diximusGameId');
+        console.log(gameId);
         return(<div className="navBar">
             <Link to="/" style={{textDecoration: 'none', color: 'black'}}>
                 <div className="diximus" onClick={this.props.onDiximusClick}>Diximus</div>
             </Link>
             <div>
+                {gameId ? <span>
+                    <Link to={`/${gameId}`} style={{textShadow: 'darkblue 0px 0px 1px'}}>
+                        {this.props.localization.localize('nav-bar_return-to-game')}
+                    </Link> |&nbsp;
+                </span> : null}
                 <Link to="/create">{this.props.localization.localize('nav-bar_create-new-game')}</Link> |&nbsp;
                 <Link to="/gallery">{this.props.localization.localize('nav-bar_card-gallery')}</Link> |&nbsp;
                 <Link to="/about">{this.props.localization.localize('nav-bar_about-diximus')}</Link> |&nbsp;

@@ -43,7 +43,7 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-app.use(serveFavicon(path.join(__dirname, 'build', 'favicon.ico')));
+if(process.env.NODE_ENV === 'production') app.use(serveFavicon(path.join(__dirname, 'images', 'favicon.ico')));
 
 // set up database
 console.log('Connecting to database ...')

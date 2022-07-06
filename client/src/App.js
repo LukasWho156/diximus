@@ -15,6 +15,7 @@ import ChangelogPage from './components/pages/changelog-page';
 
 import Localization from './logic/localization';
 import { serverUrl } from './logic/server-url';
+import { isGameRunning } from './logic/is-game-running';
 
 const localization = new Localization();
 
@@ -32,6 +33,9 @@ class App extends React.Component {
       socket: socket,
       forceRerender: () => this.forceRerender(),
     }
+    isGameRunning().then(res => {
+      if(!res) window.localStorage.setItem('diximusGameId', '');
+    })
   }
 
   forceRerender() {

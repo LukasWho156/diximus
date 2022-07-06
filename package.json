@@ -6,7 +6,7 @@
   "scripts": {
     "install": "mongorestore && cd client && npm install --legacy-peer-deps && cd ../server && npm install --legacy-peer-deps && cd ..",
     "start:windows": "powershell \".\\start.ps1\"",
-    "start:linux": "(cd client && npm start) ? (cd server && npm start)",
+    "start:linux": "(cd client && npm start) & (cd server && npm run start:test)",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

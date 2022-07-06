@@ -1,13 +1,13 @@
-import axios from "axios";
 import React from "react";
+import { Spinner } from "react-bootstrap";
 import { useParams } from "react-router-dom";
+import axios from "axios";
 
 import JoinRoomPage from "./join-room-page";
-import { serverUrl } from "../../logic/server-url";
 import LobbyPage from "./lobby-page";
 import MainGamePage from "./main-game-page";
-import { Spinner } from "react-bootstrap";
 import FinishedPage from "./finished-page";
+import { serverUrl } from "../../logic/server-url";
 
 class GamePageComponent extends React.Component {
 
